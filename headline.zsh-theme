@@ -87,7 +87,8 @@ HEADLINE_DO_GIT_BRANCH='true'
 HEADLINE_DO_GIT_STATUS='true'
 
 # Prompt character
-HEADLINE_PROMPT="%(#.#.%(!.!.$)) " # consider "%#"
+#HEADLINE_PROMPT="%(#.#.%(!.!.$)) " # consider "%#"
+HEADLINE_PROMPT="%(?:%{$fg_bold[green]%}➜ "
 
 # Repeated characters (no styles here)
 HEADLINE_LINE_CHAR='_' # line above information
